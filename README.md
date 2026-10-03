@@ -36,9 +36,18 @@ Each calculator takes inputs, computes the result, and plots graphs such as heig
 This is a small, student-level project. It still has some bugs, because we ran short on time and presented it as it was. I plan to fix them and improve the app in the future.
 
 # Screenshots
-<img width="720" height="1600" alt="Screenshot_20261003_174952_My Project" src="https://github.com/user-attachments/assets/3d66bdd4-650a-44f9-a1e1-11d4d42d9af3" />
 
+<img width="720" height="1433" alt="Screenshot_20261003_174952_My Project" src="https://github.com/user-attachments/assets/3622c379-c358-47c7-8901-d786e2ef8e9d" />
 
+<img width="720" height="1479" alt="Screenshot_20261003_174957_My Project" src="https://github.com/user-attachments/assets/517f340c-f5ae-49ef-8aad-d9676fd4b84c" />
+
+<img width="720" height="1478" alt="Screenshot_20261003_175001_My Project" src="https://github.com/user-attachments/assets/cc6c1fc5-2743-4618-a0f4-3b74ac36cbf3" />
+
+<img width="720" height="1455" alt="Screenshot_20261003_175159_My Project" src="https://github.com/user-attachments/assets/a16040fc-f497-4d68-9e0e-795c1e7d1492" />
+
+<img width="720" height="1436" alt="Screenshot_20261003_175202_My Project" src="https://github.com/user-attachments/assets/ba74e807-12c5-4a0e-b4ef-1d8f654d6f6a" />
+
+<img width="720" height="1343" alt="Screenshot_20261003_175209_My Project" src="https://github.com/user-attachments/assets/318ed7e4-f8f8-47f4-8e95-8224fa5460ec" />
 
 # What I learned
 
