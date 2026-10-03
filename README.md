@@ -36,6 +36,7 @@ Each calculator takes inputs, computes the result, and plots graphs such as heig
 This is a small, student-level project. It still has some bugs, because we ran short on time and presented it as it was. I plan to fix them and improve the app in the future.
 
 # Screenshots
+<img width="720" height="1600" alt="Screenshot_20261003_174952_My Project" src="https://github.com/user-attachments/assets/3d66bdd4-650a-44f9-a1e1-11d4d42d9af3" />
 
 
 
