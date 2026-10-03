@@ -31,9 +31,31 @@ Each calculator takes inputs, computes the result, and plots graphs such as heig
 2. Open it on an Android phone.
 3. If asked, allow installing apps from this source.
 
-## Known limitations
+# Known limitations
 
-This is a small, student-level project. It still has some bugs, because we ran short on time and presented it as it was. I plan to fix them and improve the app in the future.
+This is a small, student-level project. It still has some bugs, because we ran short on time and presented it as it was. I tested the calculation logic afterwards and found the issues below. I plan to fix them.
+
+| # | Calculator | Input | App shows | Should show |
+|---|------------|-------|-----------|-------------|
+| 1 | Linear Motion | u = 20, a = -9.8, s = 0 | t = 0 s | t = 4.08 s (ball returns to start) |
+| 2 | Linear Motion | u = 20, a = -9.8, s = -10 | t = -0.45 s, v = +24.41 | t = 4.53 s, v = -24.41 |
+| 3 | Projectile | u = 20, angle = 45, launch height = 10 | Max height = 10.20 m | 20.20 m (the graph already shows this) |
+| 4 | Projectile | u = 20, angle = -30, launch height = 10 | Max height = 5.10 m | 10 m (the launch point) |
+| 5 | Projectile | u = 20, angle = 90 | Range = 4.999e-15 m | 0 m (rounding error shown) |
+| 6 | SHM Spring-Mass | A = 1, x = 2 | KE = -6 J | An error, since x cannot be larger than A |
+| 7 | Doppler Effect | source speed = 400 m/s | f = -3008.77 Hz | A warning, since the source is faster than sound |
+| 8 | Circular Motion | a_c = 8, w = 2 | Radius not calculated | r = 2 m |
+| 9 | Projectile | u = 10, angle = 30, g = 10 (textbook value) | Range = 8.84 m (g is fixed at 9.8, no gravity input) | 8.66 m |
+
+Other general issues:
+
+- When the input is invalid, the app shows "-" and does not explain why.
+- The Projectile calculator cannot find the starting speed from a target point, such as a basketball hoop at a given distance and height.
+- The Relative Motion calculator handles only two objects on one straight line that meet or overtake each other. It cannot find unknown speeds, the gap after a given time, or perpendicular motion such as a boat crossing a stream.
+- Circular Motion does not show the distance travelled in one revolution (the circumference).
+
+I also tested the app's calculation logic on textbook problems from my physics chapter. The results were correct for Projectile Motion (except g = 10), Circular Motion, and the jet example in Relative Motion.
+
 
 # Screenshots
 
